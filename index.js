@@ -18,5 +18,3 @@ let pins = Array(alphabet).fill(0).reduce(function(m, v, a){
 
 // DEBUG
 // pins.forEach(console.log);
-
-module.exports = pins;
