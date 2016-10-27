@@ -1,5 +1,5 @@
-let alphabet = 5;
-let numbers = 12;
+let alphabet = 5; // A,B...E
+let numbers = 12; // 0,1,2...12
 
 let pins = Array(alphabet).fill(0).reduce(function(m, v, a){
     a = String.fromCharCode(a + 65);
